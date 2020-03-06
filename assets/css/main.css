@@ -146,17 +146,29 @@ header {
 nav ul {
   display: flex;
   justify-content: space-around;
-  background-color: #333333;
   padding: 10px;
-  border: 1px solid #333333;
+  border: 1px solid #333;
   border-radius: 3px;
-  background: -webkit-linear-gradient(#646464, #413f3f, #646464);
-  background:    -moz-linear-gradient(#646464, #413f3f, #646464);
-  background:         linear-gradient(#646464, #413f3f, #646464);
+  background: linear-gradient(#646464, #413f3f, #646464);
 }
 
 .nav ul li:hover {
-  background-color: #333333;
+  background-color: #333;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.field a {
+  padding: 12px;
+}
+
+.top-right-contnt a {
+  border-right: 1px solid gray;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .nav ul li a {
@@ -166,29 +178,24 @@ nav ul {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.logo a i{
+.logo a i {
   font-size: 20px;
 }
 
 .field {
-  border: 1px solid #333333;
+  border: 1px solid #333;
   border-radius: 3px;
-}
-
-.field a {
-  padding: 12px;
 }
 
 .field a input {
   background: none;
-  padding: 4px 0px 4px 0px;
-  
+  padding: 4px 0 4px 0;
   height: 13px;
   width: 106px;
   border: none;
 }
 
-.main-text { 
+.main-text {
   color: white;
   text-align: center;
   margin: auto;
@@ -226,11 +233,6 @@ footer {
   background-color: white;
 }
 
-footer a {
-  text-decoration: none;
-  color: #0088CC;
-}
-
 .footer-content {
   font-size: 11px;
   margin: auto;
@@ -240,18 +242,12 @@ footer a {
   color: #6e6e6e;
 }
 
-.top-left-contnt{
+.top-left-contnt {
   float: left;
 }
 
 .top-right-contnt {
   float: right;
-}
-
-.top-right-contnt a {
-  border-right: 1px solid gray;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 .bottom-left-contnt {
