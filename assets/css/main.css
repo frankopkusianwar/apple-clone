@@ -161,7 +161,7 @@ footer a {
   color: #08c;
 }
 
-.field a {
+.field span {
   padding: 12px;
 }
 
@@ -185,9 +185,10 @@ footer a {
 .field {
   border: 1px solid #333;
   border-radius: 3px;
+  color: white;
 }
 
-.field a input {
+.field span input {
   background: none;
   padding: 4px 0 4px 0;
   height: 13px;
