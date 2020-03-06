@@ -107,6 +107,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 ol,
@@ -149,6 +150,13 @@ nav ul {
   padding: 10px;
   border: 1px solid #333333;
   border-radius: 3px;
+  background: -webkit-linear-gradient(#646464, #413f3f, #646464);
+  background:    -moz-linear-gradient(#646464, #413f3f, #646464);
+  background:         linear-gradient(#646464, #413f3f, #646464);
+}
+
+.nav ul li:hover {
+  background-color: #333333;
 }
 
 .nav ul li a {
@@ -162,18 +170,22 @@ nav ul {
   font-size: 20px;
 }
 
-.bb {
+.field {
   border: 1px solid #333333;
   border-radius: 3px;
 }
 
-.field a input {
-  
+.field a {
+  padding: 12px;
 }
 
-.field a i {
+.field a input {
+  background: none;
+  padding: 4px 0px 4px 0px;
   
-  
+  height: 13px;
+  width: 106px;
+  border: none;
 }
 
 .main-text { 
@@ -186,17 +198,18 @@ nav ul {
 }
 
 .question {
-  font-size: 60px;
+  font-size: 55px;
+  font-weight: 100;
 }
 
 .everyone {
-  font-size: 40px;
-  margin-top: 10px;
+  font-size: 33px;
+  margin-top: 20px;
 }
 
 .watch {
-  font-size: 30px;
-  margin-top: 35px;
+  font-size: 25px;
+  margin-top: 50px;
 }
 
 .grid {
