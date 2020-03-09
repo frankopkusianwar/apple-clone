@@ -150,16 +150,16 @@ nav ul {
   display: flex;
   border: 1px solid #333;
   border-radius: 3px;
-  margin:auto;
-	padding:0;
+  margin: auto;
+  padding: 0;
   background: linear-gradient(#6d6c6c, #413f3f, #6d6c6c);
 }
 
 .nav ul li {
-  display:flex;
+  display: flex;
   flex: 1 0 auto;
   justify-content: center;
-  border:1px solid rgb(82, 80, 80);
+  border: 1px solid rgb(82, 80, 80);
 }
 
 .nav ul li:hover {
@@ -177,16 +177,25 @@ footer a {
   padding-right: 5px;
 }
 
+small a:last-child {
+  border: none;
+}
+
 .nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 13px;
-  display:flex;
+  display: flex;
   flex: 1 0 auto;
   justify-content: center;
   padding-top: 10px;
   padding-bottom: 5px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.watch i {
+  margin-left: 3px;
+  font-size: 20px;
 }
 
 .logo a i {
@@ -236,11 +245,6 @@ footer a {
   margin-top: 50px;
 }
 
-.watch i {
-  margin-left: 3px;
-  font-size:20px;
-}
-
 .grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -285,10 +289,6 @@ footer {
 
 .terms {
   padding-right: 5px;
-}
-
-small a:last-child {
-  border: none;
 }
 
 small a:last-child img {
