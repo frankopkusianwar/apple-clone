@@ -135,6 +135,9 @@ table {
 
 header {
   background: url(../img/background.jpg) no-repeat bottom;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-bottom: 2px;
 }
 
 .nav {
@@ -145,11 +148,18 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
   border: 1px solid #333;
   border-radius: 3px;
+  margin:auto;
+	padding:0;
   background: linear-gradient(#6d6c6c, #413f3f, #6d6c6c);
+}
+
+.nav ul li {
+  display:flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  border:1px solid rgb(82, 80, 80);
 }
 
 .nav ul li:hover {
@@ -159,10 +169,6 @@ nav ul {
 footer a {
   text-decoration: none;
   color: #08c;
-}
-
-.field span {
-  padding: 12px;
 }
 
 .top-right-contnt a {
@@ -175,6 +181,11 @@ footer a {
   color: white;
   text-decoration: none;
   font-size: 13px;
+  display:flex;
+  flex: 1 0 auto;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -184,13 +195,16 @@ footer a {
 
 .field {
   border: 1px solid #333;
-  border-radius: 3px;
+  border-radius: 15px;
   color: white;
+  padding: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 20px;
 }
 
-.field span input {
+.field input {
   background: none;
-  padding: 4px 0 4px 0;
   height: 13px;
   width: 106px;
   border: none;
@@ -203,6 +217,8 @@ footer a {
   width: 70%;
   padding-top: 55px;
   padding-bottom: 150px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 50;
 }
 
 .question {
@@ -220,9 +236,16 @@ footer a {
   margin-top: 50px;
 }
 
+.watch i {
+  margin-left: 3px;
+  font-size:20px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .box4 img {
@@ -262,4 +285,12 @@ footer {
 
 .terms {
   padding-right: 5px;
+}
+
+small a:last-child {
+  border: none;
+}
+
+small a:last-child img {
+  position: absolute;
 }
